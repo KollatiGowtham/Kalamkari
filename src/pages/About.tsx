@@ -203,7 +203,7 @@ const About = () => {
                   poster="/kalamkari-step1.jpg"
                   className="w-full h-40 sm:h-48 object-cover"
                 >
-                  <source src="/src/assets/vide1.mp4" type="video/mp4" />
+                  <source src="@/assets/vide1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="p-3 sm:p-4">
@@ -236,7 +236,7 @@ const About = () => {
                   poster="/kalamkari-step2.jpg"
                   className="w-full h-40 sm:h-48 object-cover"
                 >
-                  <source src="/src/assets/vide2.mp4" type="video/mp4" />
+                  <source src="@/assets/vide4.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="p-3 sm:p-4">
@@ -269,7 +269,7 @@ const About = () => {
                   poster="/kalamkari-step3.jpg"
                   className="w-full h-40 sm:h-48 object-cover"
                 >
-                  <source src="/src/assets/vide.mp4" type="video/mp4" />
+                  <source src="@/assets/vide3.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="p-3 sm:p-4">
@@ -302,7 +302,7 @@ const About = () => {
                   poster="/kalamkari-step4.jpg"
                   className="w-full h-40 sm:h-48 object-cover"
                 >
-                  <source src="/src/assets/vide3.mp4" type="video/mp4" />
+                  <source src="@/assets/vide.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="p-3 sm:p-4">
@@ -335,7 +335,7 @@ const About = () => {
                   poster="/kalamkari-step5.jpg"
                   className="w-full h-40 sm:h-48 object-cover"
                 >
-                  <source src="/src/assets/vide4.mp4" type="video/mp4" />
+                  <source src="@/assets/vide2.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="p-3 sm:p-4">
