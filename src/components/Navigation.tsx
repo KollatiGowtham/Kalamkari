@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,8 +42,10 @@ const Navigation = () => {
             to="/"
             className="flex items-center space-x-2"
           >
+
+
             <img
-              src="/src/assets/logo.png"
+              src={logo}
               alt="KK Handlooms Logo"
               className="h-20 sm:h-24 md:h-28 w-auto object-contain"
             />

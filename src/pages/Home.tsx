@@ -4,6 +4,11 @@ import { ArrowRight, Sparkles, Heart, Palette } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/kalamkari-hero.jpg";
+import saree10 from "@/assets/saree10.jpg";
+import dressmaterial from "@/assets/dm6.jpg";
+import dupatta from "@/assets/duppata45.jpg";
+import bg12 from "@/assets/bg12.jpg";
+import bg13 from "@/assets/bg13.jpg";
 
 const Home = () => {
   return (
@@ -149,8 +154,10 @@ const Home = () => {
               className="group relative overflow-hidden rounded-xl shadow-2xl hover-lift animate-slide-in-left transition-all duration-300 hover:shadow-3xl"
             >
               <div className="aspect-[3/4] relative overflow-hidden">
+
+
                 <img
-                  src="@/assets/saree10.jpg"
+                  src={saree10}
                   alt="Kalamkari Saree"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -173,7 +180,7 @@ const Home = () => {
             >
               <div className="aspect-[3/4] relative overflow-hidden">
                 <img
-                  src="@/assets/dm6.jpg"
+                  src={dressmaterial}
                   alt="Kalamkari Kurta"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -196,7 +203,7 @@ const Home = () => {
             >
               <div className="aspect-[3/4] relative overflow-hidden">
                 <img
-                  src="@/assets/duppata45.jpg"
+                  src={dupatta}
                   alt="Kalamkari Dupatta"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -245,7 +252,7 @@ const Home = () => {
             {/* Right: Image */}
             <div className="relative overflow-hidden rounded-lg shadow-xl animate-fade-in">
               <img
-                src="@/assets/bg12.jpg"
+                src={bg12}
                 alt="Artisan hand-painting Kalamkari fabric"
                 className="w-full h-full object-cover"
               />
@@ -314,7 +321,7 @@ const Home = () => {
             {/* Left: Image */}
             <div className="relative overflow-hidden rounded-lg shadow-xl animate-fade-in">
               <img
-                src="@/assets/bg13.jpg"
+                src={bg13}
                 alt="Kalamkari products showcase"
                 className="w-full h-full object-cover"
               />

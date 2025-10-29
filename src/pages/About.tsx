@@ -3,6 +3,11 @@ import Footer from "@/components/Footer";
 import aboutImage1 from "@/assets/kalamkari-craft-1.jpg";
 import aboutImage2 from "@/assets/kalamkari-craft-2.jpg";
 import { Heart, Sparkles, Users } from "lucide-react";
+import video1 from "@/assets/vide1.mp4";
+import video4 from "@/assets/vide4.mp4";
+import video3 from "@/assets/vide3.mp4";
+import video2 from "@/assets/vide.mp4";
+import video5 from "@/assets/vide2.mp4";
 
 const About = () => {
   return (
@@ -196,16 +201,18 @@ const About = () => {
                   if (video) video.pause();
                 }}
               >
-                <video
-                  muted
-                  playsInline
-                  controls
-                  poster="/kalamkari-step1.jpg"
-                  className="w-full h-40 sm:h-48 object-cover"
-                >
-                  <source src="@/assets/vide1.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+
+
+<video
+  muted
+  playsInline
+  controls
+  poster="/kalamkari-step1.jpg"
+  className="w-full h-40 sm:h-48 object-cover"
+>
+  <source src={video1} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
                 <div className="p-3 sm:p-4">
                   <p className="text-sm text-muted-foreground">Washing and sun-drying the cotton fabric.</p>
                 </div>
@@ -229,16 +236,18 @@ const About = () => {
                   if (video) video.pause();
                 }}
               >
-                <video
-                  muted
-                  playsInline
-                  controls
-                  poster="/kalamkari-step2.jpg"
-                  className="w-full h-40 sm:h-48 object-cover"
-                >
-                  <source src="@/assets/vide4.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+
+
+<video
+  muted
+  playsInline
+  controls
+  poster="/kalamkari-step2.jpg"
+  className="w-full h-40 sm:h-48 object-cover"
+>
+  <source src={video4} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
                 <div className="p-3 sm:p-4">
                   <p className="text-sm text-muted-foreground">Sketching intricate motifs with charcoal.</p>
                 </div>
@@ -269,7 +278,7 @@ const About = () => {
                   poster="/kalamkari-step3.jpg"
                   className="w-full h-40 sm:h-48 object-cover"
                 >
-                  <source src="@/assets/vide3.mp4" type="video/mp4" />
+                  <source src={video3} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="p-3 sm:p-4">
@@ -302,7 +311,7 @@ const About = () => {
                   poster="/kalamkari-step4.jpg"
                   className="w-full h-40 sm:h-48 object-cover"
                 >
-                  <source src="@/assets/vide.mp4" type="video/mp4" />
+                  <source src={video2} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="p-3 sm:p-4">
@@ -335,7 +344,7 @@ const About = () => {
                   poster="/kalamkari-step5.jpg"
                   className="w-full h-40 sm:h-48 object-cover"
                 >
-                  <source src="@/assets/vide2.mp4" type="video/mp4" />
+                  <source src={video5} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <div className="p-3 sm:p-4">
